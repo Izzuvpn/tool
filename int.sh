@@ -7,10 +7,10 @@ vmess_req() {
     read telco
     case "$telco" in
     1)
-        kumbang='cf.ctechdidik.me'
+        kumbang='brojie.com'
         ;;
     2)
-        kumbang='who.int'
+        kumbang='zrtt.duckdns.org'
         ;;
     *)
         vmess_req
@@ -51,10 +51,10 @@ vless_req() {
     read telco
     case "$telco" in
     1)
-        kumbang='cf.ctechdidik.me'
+        kumbang='brojie.com'
         ;;
     2)
-        kumbang='who.int'
+        kumbang='zrtt.duckdns.org'
         ;;
     *)
         vless_req
